@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/Code/CompilerExperiment/lexical_analysis/main.cpp
+D:/Code/CompilerExperiment/lexical_analysis/scanner.cpp
 scanner.hpp
 D:/Code/CompilerExperiment/lexical_analysis/scanner.hpp
 
