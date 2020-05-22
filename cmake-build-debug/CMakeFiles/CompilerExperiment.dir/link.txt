@@ -1,0 +1,3 @@
+D:\Application\CLion\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\CompilerExperiment.dir/objects.a
+D:\Application\Mingw-W64\bin\ar.exe cr CMakeFiles\CompilerExperiment.dir/objects.a @CMakeFiles\CompilerExperiment.dir\objects1.rsp
+D:\Application\Mingw-W64\bin\c++.exe -g   -Wl,--whole-archive CMakeFiles\CompilerExperiment.dir/objects.a -Wl,--no-whole-archive  -o CompilerExperiment.exe -Wl,--out-implib,libCompilerExperiment.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CompilerExperiment.dir\linklibs.rsp
