@@ -111,6 +111,8 @@ void printPaint(const string &var, const string &token) {
 void printRoleOfToken(const string &token) {
     if (isOperator(token)) {
         printPaint("OPERATOR", token);
+    } else if (isDigit(token)) {
+        printPaint("DIGIT", token);
     } else if (isSeparator(token)) {
         printPaint("SEPARATOR", token);
     } else if (isKeyword(token)) {
