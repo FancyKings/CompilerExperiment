@@ -103,17 +103,14 @@ bool isNotLegal(const std::string &str) {
 
 void printPaint(const string &var, const string &token) {
 
-    cout << "(" << mapper.at(var) << ",\t" << token << ")" << endl;
-//    cout << "TOKEN : " << token << "\t"
-//         << "ID : " << mapper.at(var) << '\t'
-//         << "TYPE : " << var << endl;
+    cout << "TOKEN : " << token << "\t"
+         << "ID : " << mapper.at(var) << '\t'
+         << "TYPE : " << var << endl;
 }
 
 void printRoleOfToken(const string &token) {
     if (isOperator(token)) {
         printPaint("OPERATOR", token);
-    } else if (isDigit(token)) {
-        printPaint("DIGIT", token);
     } else if (isSeparator(token)) {
         printPaint("SEPARATOR", token);
     } else if (isKeyword(token)) {

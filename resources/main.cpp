@@ -1,15 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 
 int main() {
-    long i, sum = 0;
-    while (scanf("%ld", &i) != EOF) {
+
+    long long i, sum = 0;
+    while (scanf("%lld", &i) != EOF) {
         while (i--) {
-            long k;
-            scanf("%ld", &k);
+            long long k;
+            scanf("%lld", &k);
             sum += k;
         }
-        printf("%ld", sum);
+        printf("%lld", sum);
         sum = 0;
     }
     return 0;
 }
+
